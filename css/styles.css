@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: darkcyan;
+    height: 75px;
+}
+
+div.heading {
+    margin: 0 15px !important;
+}
+
+header div span {
+    font-weight: bold;
+}
+
+header div a, header div a:hover {
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+#imageSizing {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+
+.header-pad h2 {
+    padding-left: 15px;
+}
+
+nav {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+footer {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    vertical-align: middle;
+}
+
+.post_content {
+    min-height: 420px;
+}
+
+.limit {
+    width: 160px;
+    height: 112px;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.limit img{
+    width: 100%;
+    height: 100%;
+  }
+
+
+  @media (max-width: 767px) { 
+
+    div.limit {
+        display: none;
+    }
+    
+  }
+
+  @media (min-width: 576px) and (max-width: 991.98px) { 
+    
+        header div a, header div a:hover {
+            font-size: 1.5rem;
+            text-decoration: none;
+            cursor: pointer;
+            color: #fff;
+        }
+   }
